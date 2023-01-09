@@ -1,8 +1,8 @@
 package Jan6;
 
-interface Polygon {
-	  void getArea(int length, int breadth);
-	}
+/*interface Polygon {
+  void getArea(int length, int breadth);
+}*/
 
 	// implement the Polygon interface
 	class Rectangle implements Polygon {
@@ -13,7 +13,7 @@ interface Polygon {
 	  }
 	}
 
-	class InterfaceExample {
+	public class InterfaceExample {
 	  public static void main(String[] args) {
 	    Rectangle r1 = new Rectangle();
 	    r1.getArea(5, 6);
