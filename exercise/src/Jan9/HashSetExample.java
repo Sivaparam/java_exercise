@@ -8,7 +8,7 @@ public class HashSetExample {
 	public void setDemo() {
 		
 		//to initialize hashset 
-		Set<String> hashset = new HashSet<>(3);
+		Set<String> hashset = new HashSet();
 		
 		//hashset add() method returns boolean value after adding element to set
 		hashset.add("A");

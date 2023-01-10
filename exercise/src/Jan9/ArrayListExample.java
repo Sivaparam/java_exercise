@@ -42,6 +42,11 @@ public class ArrayListExample {
 			System.out.print(" " + i);
 		}
 		
+		System.out.println();
+		//to change the value of a arraylist at any index set()
+		arraylist.set(1, 10);
+		System.out.println(arraylist);
+		
 	}
 	
 	public static void main(String[] args) {
