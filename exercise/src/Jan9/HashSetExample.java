@@ -1,6 +1,7 @@
 package Jan9;
 
 import java.util.HashSet;
+import java.util.Iterator;
 import java.util.Set;
 
 public class HashSetExample {
@@ -35,6 +36,11 @@ public class HashSetExample {
 		for(String i : hashset) {
 			System.out.println(i);
 		}
+		
+		//iterator is used to iterate over set 
+		Iterator<String> itr = hashset.iterator();
+		//prints the first item 
+		System.out.println(itr.next());
 		
 	}
 	
