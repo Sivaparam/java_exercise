@@ -17,6 +17,7 @@ public class ArrayListExample {
 		//anytime you print arraylist, it will always enclose data within square brackets
 		System.out.println(arraylist);
 	
+	
 		//to print arraylist without square brackets, arraylist has to be iterated
 		for(int i: arraylist) {
 			System.out.print(" " + i);
